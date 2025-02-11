@@ -2,10 +2,8 @@ import { useState } from 'react';
 import Editor from '@/components/dom-components/text-editor';
 import { Text, StyleSheet } from 'react-native';
 
-const IS_DOM = typeof Editor !== 'undefined';
-
 export default function HomeScreen() {
-  const [editorState, setEditorState] = useState<string | null>(null);
+  const [_, setEditorState] = useState<string | null>(null);
   const [plainText, setPlainText] = useState<string>('');
 
   const wordCount = plainText.split(/\s+/).filter(word => word.length > 0).length;

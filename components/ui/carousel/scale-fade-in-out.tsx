@@ -6,7 +6,7 @@ import Carousel, {
 	ICarouselInstance,
 	Pagination,
 } from "react-native-reanimated-carousel";
-import {Fragment, useRef, useState} from "react";
+import {Fragment, useRef } from "react";
 import { useAnimationStyle } from '@/hooks/useCarouselAnimation';
 
 const colors = {
@@ -14,8 +14,7 @@ const colors = {
 	tint: "#bceeea",    // Light color as tint
 }
 
-const defaultDataWith6Colors = Array.from({ length: 6 }, (_, index) => colors.tint);
-
+const defaultDataWith6Colors = Array.from({ length: 6 }, (_) => colors.tint);
 
 export const ScaleFadeInOutCarousel = () => {
 	const progress = useSharedValue<number>(0);
