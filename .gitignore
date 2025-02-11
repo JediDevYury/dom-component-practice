@@ -43,15 +43,5 @@ app-example
 #android
 /android
 
-!/.idea/
-!/.idea/.gitignore
-
-!/.idea/git_toolbox_blame.xml
-
-!/.idea/git_toolbox_prj.xml
-
-!/.idea/modules.xml
-
-!/.idea/rich-text-editor-example.iml
-
+/.idea
 !/.idea/vcs.xml
