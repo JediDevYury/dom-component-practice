@@ -5,6 +5,7 @@ import { ScaleFadeInOutCarousel } from '@/components/ui/carousel/scale-fade-in-o
 import { ParallaxCarousel } from '@/components/ui/carousel/parallax';
 import { ArrowPaginationCarousel } from '@/components/ui/carousel/arrow-pagination';
 import { ArrowPagination } from '@/components/ui/carousel/parallax-arrow-pagination';
+
 export default function TabTwoScreen() {
 	return (
 		<ScrollView
