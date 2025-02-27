@@ -1,50 +1,87 @@
-# Welcome to your Expo app 👋
+# 🧩 DOM Component Practice & Testing Repository 
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<div align="center">
+  
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![DOM](https://img.shields.io/badge/DOM-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
-## Get started
+</div>
 
-1. Install dependencies
+## 📝 Overview
 
+This repository is dedicated to testing and demonstrating the functionality of DOM components in React Native and Expo applications. It provides a practical environment for experimenting with DOM integration in mobile applications, enabling web-like components to work seamlessly across platforms.
+
+## ✨ Features
+
+- **DOM Component Integration**: Explore how DOM components can be utilized within React Native
+- **Cross-Platform Testing**: Test DOM functionality across iOS, Android, and web platforms
+- **Component Showcase**: Collection of example components demonstrating various DOM capabilities
+- **Performance Analysis**: Tools for measuring DOM component performance in a React Native context
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (LTS version recommended)
+- npm or yarn
+- iOS Simulator or Android Emulator (optional for mobile testing)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/dom-component-practice.git
+   cd dom-component-practice
+   ```
+
+2. Install dependencies:
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. Start the development server:
    ```bash
-    npx expo start
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+4. Choose your platform:
+   - Press `i` for iOS simulator
+   - Press `a` for Android emulator
+   - Press `w` to open in web browser
+   - Scan the QR code with the Expo Go app on your device
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🧪 Available Components
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+The repository contains various DOM component implementations, including:
 
-## Get a fresh project
+- **Text Editor**: A rich text editor implementation using DOM capabilities
+- **Device Info**: Component for accessing and displaying device information
+- **Collapsible Elements**: Expandable and collapsible content sections
+- **External Links**: Components for handling external URL navigation
+- **Themed Components**: DOM components that adapt to the application theme
 
-When you're ready, run:
+## 🛠️ Development
+
+To create a fresh project structure for experimentation:
 
 ```bash
 npm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+This command will preserve the example components while setting up a clean slate for your own development.
 
-## Learn more
+## 📚 Learn More
 
-To learn more about developing your project with Expo, look at the following resources:
+- [Expo DOM WebView Documentation](https://docs.expo.dev/)
+- [React Native WebView Guide](https://github.com/react-native-webview/react-native-webview)
+- [DOM API Reference](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 🤝 Contributing
 
-## Join the community
+Contributions are welcome! Feel free to submit pull requests with new DOM component examples, improvements to existing components, or documentation enhancements.
 
-Join our community of developers creating universal apps.
+## 📄 License
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This project is licensed under the MIT License - see the LICENSE file for details.
