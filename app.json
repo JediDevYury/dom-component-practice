@@ -1,23 +1,23 @@
 {
   "expo": {
-    "name": "rich-text-editor-example",
-    "slug": "rich-text-editor-example",
+    "name": "dom-components-example",
+    "slug": "dom-components-example",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "domcomponents",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.jedidevyury.richtexteditorexample"
+      "bundleIdentifier": "com.jedidevyury.domcomponentsexample"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.jedidevyury.richtexteditorexample"
+      "package": "com.jedidevyury.domcomponentsexample"
     },
     "web": {
       "bundler": "metro",
