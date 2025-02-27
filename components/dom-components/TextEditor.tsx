@@ -1,6 +1,6 @@
 "use dom";
-import "./styles.css";
-
+import "@/global.css"
+import "./styles/text-editor.css"
 import { AutoFocusPlugin } from "@lexical/react/LexicalAutoFocusPlugin";
 import { LexicalComposer } from "@lexical/react/LexicalComposer";
 import { ContentEditable } from "@lexical/react/LexicalContentEditable";
@@ -58,7 +58,7 @@ export default function Editor({ setPlainText, setEditorState }: EditorProps) {
                 className="editor-input"
                 aria-placeholder={EDITOR_PLACEHOLDER}
                 placeholder={
-                  <div className="editor-placeholder">{EDITOR_PLACEHOLDER}</div>
+                  <div className="editor-placeholder text-red-500">{EDITOR_PLACEHOLDER}</div>
                 }
               />
             }
